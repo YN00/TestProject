@@ -13,6 +13,7 @@
 dist/
 node_modules
 .idea
+Python
 
 # ignore doc/notes.txt, but not doc/server/arch.txt
 doc/*.txt
