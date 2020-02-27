@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/YN00/TestProject#readme",
   "dependencies": {
+    "@material-ui/core": "^4.9.4",
     "react": "^16.13.0",
     "react-dom": "^16.13.0"
   },

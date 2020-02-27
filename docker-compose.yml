@@ -6,6 +6,7 @@ services:
       context: ./nginx
     image: nginx_i
     container_name: nginx_c
+    restart: always
     ports:
       - "8888:8080"
     volumes:
