@@ -4,17 +4,17 @@ services:
   nginx:
     build:
       context: ./nginx
-    image: reactjs_nginx
-    container_name: reactjs_nginx_container
+    image: nginx_i
+    container_name: nginx_c
     ports:
       - "8888:8080"
     volumes:
       - ./dist:/wwwroot:ro
   webpack:
     build:
-      context: ./webpack
-    image: reactjs_webpack
-    container_name: reactjs_webpack_container
+      context: .
+    image: webpack_i
+    container_name: webpack_c
     volumes:
       - ./src:/src:ro
       - ./dist:/dist:z
